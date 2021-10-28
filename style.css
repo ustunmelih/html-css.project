@@ -35,7 +35,7 @@ body {
     font-size: 15px;
 }
 .menulist li:hover {
-    background-color: #CCCCCC !important;
+    background-color: #f7f5f2 !important;
     color: black !important;
 }
 .title-container {
@@ -237,8 +237,7 @@ body {
         text-transform: uppercase;
 }
 .map{
-    height: 400px;
-    padding: 130px 70px;
+    height: 400px;    
     background-color: #FDFDF1;
     box-sizing: border-box;
 }
