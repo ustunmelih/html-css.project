@@ -5,9 +5,6 @@ body {
 * {
     font-family: 'Inconsolata', sans-serif;
 }
-
-
-
 .topmenu {
     position: fixed;
     height: 54px;
@@ -16,12 +13,8 @@ body {
     color: white;
     padding: 8px 16px;
     box-sizing: border-box;
-
-
 }
-
 .menulist {
-
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -32,9 +25,7 @@ body {
     list-style-type: none;
     box-sizing: border-box;
 }
-
 .menulist li {
-
     padding: 8px 16px;
     width: 25%;
     display: flex;
@@ -42,41 +33,27 @@ body {
     align-items: center;
     cursor: pointer;
     font-size: 15px;
-
-
 }
-
 .menulist li:hover {
-
     background-color: #CCCCCC !important;
     color: black !important;
-
 }
-
 .title-container {
-
     height: 704.25px;
     box-sizing: border-box;
-    background-image: url(coffeehouse.jpg);
+    background-image: url(coffeehouse-bg.jpg);
     background-size: cover;
     background-position: center;
-
 }
-
 .title-content {
-
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
-
 }
-
 .title {
-
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -84,20 +61,14 @@ body {
     align-items: center;
     box-sizing: border-box;
     margin-top: 12.7%;
-
 }
-
 .title span {
-
     color: #fff;
     font-size: 90px;
     width: 15%;
     text-align: center;
-
 }
-
 .title-bottom {
-
     display: flex;
     width: 100%;
     height: 46px;
@@ -105,40 +76,28 @@ body {
     box-sizing: border-box;
     justify-content: space-between;
     align-items: center;
-
 }
-
 .title-bottom span {
-
     text-align: center;
     color: #fff;
     font-size: 15px;
 }
-
 .about-container {
-
     height: 1077px;
     padding: 0.18px 16px;
     background-color: #F7F5F2;
 }
-
 .about {
-
     height: 97%;
-    margin: 0px 566.5px;
-
+    margin: 0px 31%;
 }
-
 .about h5 {
     margin: 10px 0px;
     padding: 64px 0px;
-
     color: white;
     text-align: center;
 }
-
 .about h5 span {
-
     padding: 1px 8px;
     letter-spacing: 4px;
     background-color: black;
@@ -148,15 +107,12 @@ body {
     font-weight: 400;
     text-transform: uppercase;
 }
-
 .about p {
     margin: 18px 0px;
     font-size: 18px;
     line-height: 1.5;
 }
-
 .greybox {
-
     height: 135px;
     background-color: #f1f1f1;
     color: black;
@@ -165,47 +121,34 @@ body {
     padding: 3px 16px 0px 16px;
     box-sizing: border-box;
 }
-
 .greybox p {
-
     margin: 18px 0px;
     font-size: 18px;
     line-height: 1.5;
-
 }
-
 .menu-container {
     height: 1276px;
     padding: 0.18px 16px;
     box-sizing: inherit;
     background-color: #F7F5F2;
 }
-
 .menu-container p {
-
     text-align: left;
     margin: 18px 0px;
     font-size: 18px;
     line-height: 1.5
 }
-
 .menu-content {
-
     height: 97%;
-    margin: 0px 566.5px;
+    margin: 0px 31%;
     text-align: center;
     box-sizing: inherit;
-
 }
-
 .menu-content h5 {
-
     margin: 10px 0px;
     line-height: 1.5;
 }
-
 .menu-content h5 span {
-
     padding: 1px 8px;
     letter-spacing: 4px;
     color: #fff;
@@ -218,7 +161,6 @@ body {
     line-height: 1.5;
     text-transform: uppercase;
 }
-
 .menu {
     height: 43px;
     padding: 8px 16px;
@@ -229,31 +171,24 @@ body {
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
     box-sizing: border-box;
 }
-
 .menu div {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .menu div:hover {
     cursor: pointer;
     color: #fff;
     background-color: #616161;
 }
-
 .eat-list {
-
     height: 664px;
     padding: 48px 16px;
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
     box-sizing: border-box;
-
 }
-
 .eat-list h5 {
-
     display: block;
     margin: 10px 0px;
     padding: 0px;
@@ -264,42 +199,31 @@ body {
     line-height: 27px;
     font-weight: 400;
 }
-
 .eat-list p {
     color: #A9A8A7;
 }
-
 .where-container {
-
     height: 1169px;
-    padding: 5%;
+    padding: 0.18px 16px;
     box-sizing: border-box;
     background-color: #F7F5F2;
 }
-
 .where-container p {
-
     margin: 18px 0px;
     font-size: 18px;
     line-height: 1.5 
 }
-
 .where-content {
-
         height: 97%;
-        margin: 0px 566.5px;
+        margin: 0px 31%;
         box-sizing: border-box;
 }
-
 .where-content h5 {
-
         margin: 10px 0px;
         line-height: 1.5;
         text-align: center;
 }
-
 .where-content h5 span {
-
         padding: 1px 8px;
         letter-spacing: 4px;
         color: #fff;
@@ -312,17 +236,13 @@ body {
         line-height: 1.5;
         text-transform: uppercase;
 }
-
 .map{
-
     height: 400px;
     padding: 130px 70px;
     background-color: #FDFDF1;
     box-sizing: border-box;
 }
-
 .map div{
-
     margin: 5px;
     text-align: center;
     font-family: 'Roboto', Arial, sans-serif;
@@ -330,9 +250,7 @@ body {
     line-height: 18px;
     letter-spacing: 0px;
 }
-
 .input-container{
-
     width:100%;
     height: 361px;
     display: flex;
@@ -341,9 +259,7 @@ body {
     background-color: #F7F5F2;
     box-sizing: border-box;
 }
-
 .input-container input{
-
     height: 61px;
     width: 100%;
     padding: 16px 8px;
@@ -356,9 +272,7 @@ body {
 .input-container input p{
     margin: 0px !important;
 }
-
 .input-container button{
-
     width: 140px;
     height: 43px;
     padding: 8px 16px;
@@ -370,27 +284,19 @@ body {
     cursor: pointer;
     box-sizing: border-box;
 }
-
 .input-container button:hover{
-
     background-color: #CCCCCC;
     color: #000;
 }
-
-
 footer{
-
     height: 159px;
     padding: 48px 0px;
     text-align: center;
     background-color: #F1F1F1;
     box-sizing: border-box;
 }
-
 footer p{
-
     margin: 18px 0px;
     font-size: 18px;
     line-height: 1.5 
 }
-
